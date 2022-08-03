@@ -1,0 +1,23 @@
+.block-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  padding: 10px;
+  width: 300px;
+  margin: 40px;
+}
+.data-props {
+  color: red;
+  display: inline;
+}
+.duration-color {
+  font-size: 15px;
+}
+.button {
+  align-items: left;
+  background-color: #8b0000;
+  color: white;
+  padding: 12px;
+  margin: 15px;
+  width: 100px;
+}

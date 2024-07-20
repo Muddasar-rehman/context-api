@@ -8,6 +8,6 @@ function ProtectedRoutes({ children }) {
   if (!userAuth) {
     return <Navigate to="/signin" />;
   }
-  return children;
+  return children;  
 }
 export default ProtectedRoutes;
